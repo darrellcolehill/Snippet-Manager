@@ -4,11 +4,9 @@
 
 tasks:
   - name: Client
-    init: cd client
-    command: npm run start
+    command: cd client; npm install; npm run start
   - name: 'Server'
-    init: cd server
-    command: npm run dev
+    command: cd client; npm install; npm run dev
 
 
 ports:
