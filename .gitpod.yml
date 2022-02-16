@@ -5,11 +5,15 @@
 tasks:
   - name: Client
     before: cd client
-    init: npm install
+    init: |
+      npm install
+      clear
     command: npm run start
   - name: Server
     before: cd server
-    init: npm install
+    init: |
+      npm install
+      clear
     command: npm run dev
     openMode: split-right
 
