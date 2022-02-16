@@ -4,9 +4,9 @@
 
 tasks:
   - name: Client
-    command: echo 'run npm here'
+    command: cd client
   - name: 'Server'
-    command: echo 'run npm here'
+    command: cd server
 
 
 ports:
