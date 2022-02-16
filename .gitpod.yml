@@ -4,9 +4,14 @@
 
 tasks:
   - name: Client
-    command: cd client; npm install; npm run start
+    before: cd client
+    init: npm install
+    command: npm run start
   - name: Server
-    command: cd server; npm install; npm run dev
+    before: cd server
+    init: npm install
+    command: npm run dev
+    openMode: split-right
 
 
 ports:
