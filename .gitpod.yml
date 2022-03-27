@@ -26,7 +26,6 @@ ports:
 vscode:
   extensions:
     - panekj.powershell
-    - GitHub.vscode-pull-request-github
     - dracula-theme.theme-dracula
     - rangav.vscode-thunder-client
     - BeardedBear.beardedtheme
